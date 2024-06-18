@@ -1,0 +1,421 @@
+name: InheritCOM
+helpContext: 0
+attributes:
+  guid: 50c1349d-f930-0198-f6aa-6b62281270a2
+  lcid: 0
+  sysKind: SYS_WIN32
+  libFlags: LIBFLAG_FHASDISKIMAGE
+  majorVerNum: 1
+  minorVerNum: 0
+file: C:\Users\Sinoheh\source\repos\ParentCOM\TLBs\InheritCOM.tlb
+customData:
+- guid: 90883f05-3d28-11d2-8f17-00a0c9a6186d
+  guidConstant: GUID_ExportedFromComPlus
+  value: InheritCOM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+types:
+- name: ISample
+  helpContext: 0
+  attributes:
+    guid: e8f4cc99-454c-4069-8208-043967489026
+    idlFlag: IDLFLAG_NONE
+    kind: TKIND_DISPATCH
+    typeFlags: TYPEFLAG_FDUAL, TYPEFLAG_FDISPATCHABLE
+    alignment: 4
+    size: 4
+    sizeInstance: 0
+    virtualMemoryTableSize: 28
+    numberOfFunctions: 8
+    numberOfImplementedInterfaces: 1
+    numberOfVariablesAndDatafields: 0
+    lcid: 0
+    constructorId: -1
+    destructorId: -1
+    majorVersionNumber: 1
+    minorVersionNumber: 0
+  implementedInterfaces:
+  - name: IDispatch
+    isImported: True
+    importedReferenceType:
+      typeGuid: 00020400-0000-0000-c000-000000000046
+      typeLibGuid: 00020400-0000-0000-c000-000000000046
+      typeLibName: stdole
+  functions:
+  - name: QueryInterface
+    memberId: 1610612736
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 2
+    vTableOffset: 0
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    parameters:
+    - name: riid
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_PTR -> VT_USERDEFINED
+        refType:
+          name: GUID
+          isImported: True
+          importedReferenceType:
+            typeGuid: 00000000-0000-0000-0000-000000000000
+            typeLibGuid: 00000000-0000-0000-0000-000000000000
+            typeLibName: stdole
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: ppvObj
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_PTR -> VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: AddRef
+    memberId: 1610612737
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 0
+    vTableOffset: 4
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_UI4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: Release
+    memberId: 1610612738
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 0
+    vTableOffset: 8
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_UI4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: GetTypeInfoCount
+    memberId: 1610678272
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 1
+    vTableOffset: 12
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    parameters:
+    - name: pctinfo
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_UINT
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: GetTypeInfo
+    memberId: 1610678273
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 3
+    vTableOffset: 16
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    parameters:
+    - name: itinfo
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_UINT
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: lcid
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_UI4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: pptinfo
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_PTR -> VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: GetIDsOfNames
+    memberId: 1610678274
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 5
+    vTableOffset: 20
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    parameters:
+    - name: riid
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_PTR -> VT_USERDEFINED
+        refType:
+          name: GUID
+          isImported: True
+          importedReferenceType:
+            typeGuid: 00000000-0000-0000-0000-000000000000
+            typeLibGuid: 00000000-0000-0000-0000-000000000000
+            typeLibName: stdole
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: rgszNames
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_PTR -> VT_PTR -> VT_I1
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: cNames
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_UINT
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: lcid
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_UI4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: rgdispid
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_I4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: Invoke
+    memberId: 1610678275
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 1
+    numberOfParameters: 8
+    vTableOffset: 24
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_VOID
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    parameters:
+    - name: dispidMember
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_I4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: riid
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_PTR -> VT_USERDEFINED
+        refType:
+          name: GUID
+          isImported: True
+          importedReferenceType:
+            typeGuid: 00000000-0000-0000-0000-000000000000
+            typeLibGuid: 00000000-0000-0000-0000-000000000000
+            typeLibName: stdole
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: lcid
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_UI4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: wFlags
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_UI2
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: pdispparams
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_PTR -> VT_USERDEFINED
+        refType:
+          name: DISPPARAMS
+          isImported: True
+          importedReferenceType:
+            typeGuid: 00000000-0000-0000-0000-000000000000
+            typeLibGuid: 00000000-0000-0000-0000-000000000000
+            typeLibName: stdole
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    - name: pvarResult
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_VARIANT
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    - name: pexcepinfo
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_USERDEFINED
+        refType:
+          name: EXCEPINFO
+          isImported: True
+          importedReferenceType:
+            typeGuid: 00000000-0000-0000-0000-000000000000
+            typeLibGuid: 00000000-0000-0000-0000-000000000000
+            typeLibName: stdole
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    - name: puArgErr
+      idlFlags: IDLFLAG_FOUT
+      parameterFlags: PARAMFLAG_FOUT
+      typeDescription:
+        type: VT_PTR -> VT_UINT
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FOUT
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+  - name: Sum
+    memberId: 1610743808
+    docString: 
+    callConv: CC_STDCALL
+    kind: FUNC_DISPATCH
+    invokeKind: INVOKE_FUNC
+    functionFlags: 0
+    numberOfParameters: 1
+    vTableOffset: 28
+    returnType:
+      name: rhs
+      idlFlags: IDLFLAG_NONE
+      parameterFlags: PARAMFLAG_NONE
+      typeDescription:
+        type: VT_I4
+      parameterDescription:
+        parameterFlags: PARAMFLAG_NONE
+    parameters:
+    - name: baseSetting
+      idlFlags: IDLFLAG_FIN
+      parameterFlags: PARAMFLAG_FIN
+      typeDescription:
+        type: VT_PTR -> VT_USERDEFINED
+        refType:
+          name: IBaseSetting
+          isImported: True
+          importedReferenceType:
+            typeGuid: 1867d5be-c9b9-4490-aa10-605fdb3be8fa
+            typeLibGuid: 1867d5be-c9b9-4490-aa10-605fdb3be8fa
+            typeLibName: ParentCOM
+      parameterDescription:
+        parameterFlags: PARAMFLAG_FIN
+    customData:
+    - guid: 0f21f359-ab84-41e8-9a78-36d110e6d2f9
+      guidConstant: GUID_ManagedName
+      value: InheritCOM.ISample
+- name: Sample
+  helpContext: 0
+  attributes:
+    guid: 43de4254-3ac4-4735-86ed-308c973da04c
+    idlFlag: IDLFLAG_NONE
+    kind: TKIND_COCLASS
+    typeFlags: TYPEFLAG_FCANCREATE
+    alignment: 4
+    size: 4
+    sizeInstance: 0
+    virtualMemoryTableSize: 0
+    numberOfFunctions: 0
+    numberOfImplementedInterfaces: 1
+    numberOfVariablesAndDatafields: 0
+    lcid: 0
+    constructorId: -1
+    destructorId: -1
+    majorVersionNumber: 1
+    minorVersionNumber: 0
+  implementedInterfaces:
+  - implementationFlags: IMPLTYPEFLAG_FDEFAULT
+    name: ISample
+    isImported: False
